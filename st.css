@@ -1,0 +1,101 @@
+@media (max-width: 1000px){
+    header {
+        background-position: center;
+        height: 50vh;
+    }
+    header div{
+        height:50vh ;
+    }
+    header h1{
+        font-size: 10vw;
+    }
+    #fil{
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+        font-size: 2em;
+    }
+    #right{
+        width: 100%;
+        font-size: 1em;
+    }
+    #Alaska button {
+        padding: 10px 20px;
+        background-color: bisque;
+    }
+  #ch{
+    flex-direction:column ;
+    gap: 50px;
+  }
+  #ch h2{
+font-size: 7vw;
+  }
+  #ch div{
+    width: 100%;
+  }
+  #ch p{
+    font-size: 3vw;
+  }
+  #ch button{
+    padding: 15px 30px;
+    font-size: 3vw;
+  }
+  #ch img{
+    width: 70%;
+  }
+  #Egypt{
+    flex-direction: column;
+    padding: 0;
+}
+#Egypt #info{
+    width: 100%;
+    height: fit-content;
+}
+#Egypt img{
+    width: 100%;
+}
+#statuya{
+    width: -1000%;
+}
+#mun1{
+  flex-direction: column;
+  padding: 0; 
+}
+#mun1 #info{
+width: 100%;
+height: fit-content;
+}
+#mun1 img{
+  width: 100%;
+}
+#Man button:hover{
+  transform: scale(1.2);
+  width: 100%
+}
+#Man button{
+  cursor: pointer;
+  transition: all 1s;
+  width: 100%
+}
+#Man{
+  flex-direction: column;
+}
+#lift{
+  width: 40%;
+  font-size: 2em;
+
+}
+#reght{
+  width: 40%;
+  font-size: 1em;
+}
+#lift h2:hover{
+  transform: scale(1.2);
+}
+#lift h2{
+  cursor: pointer;
+  transition: all 1s;
+}
+    }
+    
